@@ -16,7 +16,8 @@ return [
     |
     */
 
-    'default' => env('I-GAME_WebApp-2024', 'mysql'),
+    //'default' => env('I-GAME_WebApp-2024', 'mysql'),
+    'default' => env('ADSD-Labs1-2_2024', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
