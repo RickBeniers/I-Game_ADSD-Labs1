@@ -1,0 +1,6 @@
+//---------------------------------------------------
+//CSS for Simulator panel
+@stack('css')
+.flex-container {
+  display: flex;
+}
