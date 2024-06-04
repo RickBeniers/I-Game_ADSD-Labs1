@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\config",
     "\\resources",
     "\\resources\\css",
     "\\resources\\views"
   ],
-  "SelectedNode": "\\resources\\views\\home.blade.php",
+  "SelectedNode": "\\resources\\css\\sim.css",
   "PreviewInSolutionExplorer": false
 }

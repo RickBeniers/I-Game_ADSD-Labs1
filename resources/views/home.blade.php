@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>I Game Simulator</title>
-    <link rel="stylesheet" type="text/css" href="/dashboard/projects/Igame/resources/css/app.css?v=4">
+    <link rel="stylesheet" type="text/css" href="/dashboard/projects/Igame/Igame/resources/css/app.css?v=4">
 </head>
 <body>
     <header>
