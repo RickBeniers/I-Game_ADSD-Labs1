@@ -1,1 +1,28 @@
 @charset "UTF-8";
+
+.buttonDimensions {
+    width: 100px;
+    height: 25px;
+    margin-left: calc(50% - 50px);
+}
+.innerDiv {
+    margin: 0 auto;
+}
+.outerDiv{
+    width:100%;
+    height:100%;
+    margin-top: 15px;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.roleselectText {
+    width: 250px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}

@@ -56,7 +56,7 @@
                 <div class="grid-item5 grid-container5">
                     <div class="grid-item item2">
                         <div class=centerLowerElements>
-                            <form action="/simController.php" target="_self">
+                            <form action="/simController.php" target="_self" method=post>
                                 <label for=orderfield>placeholder</label><br>
                                 <input type=text id=orderfield name=orderfield>
                                 <input type=submit value="Bevestig">

@@ -1,10 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\config",
+    "\\app",
+    "\\app\\Http",
+    "\\app\\Http\\Controllers",
+    "\\app\\Models",
     "\\resources",
     "\\resources\\css",
-    "\\resources\\views"
+    "\\resources\\views",
+    "\\routes"
   ],
   "SelectedNode": "\\resources\\css\\sim.css",
   "PreviewInSolutionExplorer": false
