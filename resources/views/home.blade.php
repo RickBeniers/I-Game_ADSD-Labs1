@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="grid-container header">
-            <div class="grid-item1 item"><h4>1</h4></div>
+            <div class="grid-item1 item"><h4>Intuision game</h4></div>
             <div class="grid-item2 item"><button class="headerButton">Admin</button></div>
         </div>
     </header>

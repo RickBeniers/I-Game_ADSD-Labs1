@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+:root {
+    /* This containers will hold all global css variables*/
+
+    --middleElementWidth: 150px;
+    --middleElementHeight: 150px;
+    --middleElementFontsize: 8px;
+    --lowerElementheight: 25px;
+}
 .grid-container2{
     display: grid;
     height: 100%;
@@ -14,20 +22,22 @@
     height: 100%;
 } 
 .simDimentions{
-    height: 1000px; /* height from html - height from header */
+    height: 1150px; /* height from html - height from header */
     width: 100%;
 }
 .grid-container3 {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-evenly;
+
+    justify-content: center;
+    align-items: center;
 }
 .grid-item {
     position: relative;
-    align-content: center;
-    display: flex;
-    justify-content: center;
+}
+.i2 {
+    margin: 0 auto;
 }
 .upperElements{
     width: 100px;
@@ -43,14 +53,122 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 10px;
-}
-.flex-container2{
-    display: flex;
+    align-items: center;
 }
 .middleElements {
-    position: absolute;
+    position: relative;
     border: solid black 1px;
-    height: 10%;
-    width: 10%;
-    top: 50%;
+    height: var(--middleElementHeight);
+    width: var(--middleElementWidth);
+    /*top: 50%;*/
+    margin: 0 auto;
+}
+.widthScaller{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    font-size: var(--middleElementFontsize);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.widthScaller2 {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    font-size: calc(var(--middleElementFontsize) - 5px);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.grid-container5 {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+.item2{
+    margin: 0 auto;
+}
+.lowerElements {
+    width: var(--middleElementWidth);
+    height: var(--lowerElementheight);
+    font-size: var(--middleElementFontsize);
+    text-align: center;
+}
+#bankaccountstatus{
+    border: solid black 1px;
+    text-align: center;
+}
+.centerLowerElements{
+    margin: 0 auto;
+    align-items: center;
+}
+
+.simOrdersButton {
+    width: 50px;
+    height: 50px;
+    margin-left: calc(50% - 25px);
+}
+
+/* The media queries below will set the width and height
+    of the middle content elements on the simulator page
+    based on the width of the viewport.
+*/
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    : root {
+        /* set the width and height based on width of viewport */
+        --middleElementWidth: 150px;
+        --middleElementHeight: 150px;
+        /* set font-size based on width of viewport */
+        --middleElementFontsize: 8px;
+        /* set height based on width of viewport */
+        --lowerElementheight: 20px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    :root {
+        --middleElementWidth: 175px;
+        --middleElementHeight: 175px;
+        --middleElementFontsize: 16px;
+        --lowerElementheight: 20px;
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    :root {
+        --middleElementWidth: 200px;
+        --middleElementHeight: 200px;
+        --middleElementFontsize: 20px;
+        --lowerElementheight: 25px;
+    }
+}
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+    :root {
+        --middleElementWidth: 250px;
+        --middleElementHeight: 250px;
+        --middleElementFontsize: 20px;
+        --lowerElementheight: 27px;
+    }
+}
+@media screen and (min-width: 1501px) and (max-width: 1800px) {
+    :root {
+        --middleElementWidth: 300px;
+        --middleElementHeight: 300px;
+        --middleElementFontsize: 25px;
+        --lowerElementheight: 30px;
+    }
+}
+@media screen and (min-width: 1801px) and (max-width: 2200px) {
+    :root {
+        --middleElementWidth: 350px;
+        --middleElementHeight: 350px;
+        --middleElementFontsize: 30px;
+        --lowerElementheight: 33px;
+    }
+}
+@media screen and (min-width: 2201px) and (max-width: 2600px) {
+    :root {
+        --middleElementWidth: 350px;
+        --middleElementHeight: 350px;
+        --middleElementFontsize: 40px;
+        --lowerElementheight: 45px;
+    }
 }
