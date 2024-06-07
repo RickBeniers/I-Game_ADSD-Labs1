@@ -2,25 +2,34 @@
 
 namespace App\Http\Controllers;
 
-abstract class RegisterController
+class RegisterController
 {
-    private $username;
-    private $gamecode;
+    private $username = "";
+    private $gamecode = 0;
 
-    if(isset($_POST['submit']))
-    {
-        registerController();
-    } 
-    public function registerController(){
+    public function __construct(){
     //This is the constructor of this controller
-        if($_POST['username'] != ''){
-            $username = $_POST['username'];
+        //echo 'constructor called.';
+
+        if(isset($_POST['username']) || isset($_POST['gamecode']))
+        {
+            //echo 'POST detected.';
+            
+            if($_POST['username'] != '' && $_POST['username'] != null){
+                $this->username = $_POST['username'];
+            }
+            if($_POST['gamecode'] != '' && $_POST['username'] != null){
+                $this->gamecode =$_POST['gamecode'];
+            }
         }
-        if($_POST['gamecode'] != ''){
-            $gamecode =$_POST['gamecode'];
-        }
-        echo $username;
-        echo $gamecode;
+        $this->echoController();
+    }
+    public function echoController(){
+
+        //echo "function called.";
+        echo $this->username;
+        echo $this->gamecode;
     }
 }
+$obj = new RegisterController();
 ?>
