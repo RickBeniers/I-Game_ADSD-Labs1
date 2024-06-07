@@ -3,7 +3,7 @@
        <main>
        <div class=outerDiv>
           <div class=innerDiv>
-            <form method=post action=/dashboard/projects/Igame/Igame/app/http/controllers/registerController.php>
+            <form method=post action="<?php echo htmlspecialchars("/dashboard/projects/Igame/Igame/app/http/controllers/registerController.php"); ?>">
                 <div>
                     <label for=username>Gebruikersnaam</label><br>
                     <input id=username type=text name=username>

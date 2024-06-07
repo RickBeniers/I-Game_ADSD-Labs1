@@ -1,9 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace dashboard\Projects\Igame\Igame\app\Http\Controllers;
+namespace dashboard\projects\Igame\Igame\app\Models;
+include 'C:\xampp2\htdocs\dashboard\Projects\Igame\Igame\app\Models\registerModel.php';
 
-class RegisterController
-{
+class RegisterController{
+
     private $username = "";
     private $gamecode = 0;
 
@@ -23,13 +25,33 @@ class RegisterController
             }
         }
         $this->echoController();
+        $this->initialiseModel($this->username);
     }
-    public function echoController(){
+    public function echoController()
+    {
 
         //echo "function called.";
         echo $this->username;
         echo $this->gamecode;
     }
+    private function initialiseModel(string $name)
+    {
+        if(class_exists('registerModel'))
+        {
+            $registerModel = new registerModel($name);
+
+        }else{
+            echo "Class does not exist";
+        }
+    }
+    public function getUsername()
+    {
+        return $this->username;
+    }
+    public function getGamecode()
+    {
+        return $this->gamecode;
+    }
 }
 $obj = new RegisterController();
-?>
+
