@@ -7,20 +7,21 @@
 # You can add other services your application may depend on here, such as a
 # database or a cache. For examples, see the Awesome Compose repository:
 # https://github.com/docker/awesome-compose
+version: '3.9'
 services:
   web:
-    image: igame
+    image: igame-web
     container_name: app-container
     build:
       context: .
     env_file:
       - .env
     ports:
-      - 9000:80
+      - 8000:80
     volumes:
-      - .:/var/www/html  
+      - web-data:/var/www/html  
 
-# The commented out section below is an example of how to define a PostgreSQL
+# The commented out section below is an example of how to define a MYSQL
 # database that your application can use. `depends_on` tells Docker Compose to
 # start the database before your application. The `db-data` volume persists the
 # database data between container restarts. The `db-password` secret is used
@@ -30,25 +31,27 @@ services:
       db:
         condition: service_completed_successfully
   db:
-    image: db
-    restart: always
+    image: mysql
     container_name: mysql-container
     env_file:
       - .env
     environment:
-      MYSQL_DATABASE: db
+      MYSQL_DATABASE: '${DB_DATABASE}'
       # you don't have to use root, but you can if you like gennerally use 'user'
-      MYSQL_USER: root
+      MYSQL_USER: '${DB_USERNAME}'
       # You can use whatever password you like
-      MYSQL_PASSWORD: ""
-      #MYSQL_ALLOW_EMPTY_PASSWORD: yes
+      MYSQL_PASSWORD: '${DB_PASSWORD}'
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
       # Password for root access
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'
     ports:
       # <Port exposed> : <MySQL Port running inside container>
-      - 3306:3306
+      - '${FORWARD_DB_PORT:-3306}:3306'
     expose:
       - 3306
+    volumes:
+      - db-data:/var/lib/mysql
 volumes:
   db-data:
+  web-data:
 
