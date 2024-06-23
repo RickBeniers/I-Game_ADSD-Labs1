@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\app\\Http\\Controllers"
+    "\\app\\Http\\Controllers",
+    "\\public"
   ],
+  "SelectedNode": "\\README.Docker.md",
   "PreviewInSolutionExplorer": false
 }
