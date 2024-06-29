@@ -3,12 +3,9 @@
     "",
     "\\.github",
     "\\.github\\workflows",
-    "\\app\\Http",
-    "\\app\\Http\\Controllers",
-    "\\app\\Models",
-    "\\app\\Providers",
-    "\\public"
+    "\\public",
+    "\\tests"
   ],
-  "SelectedNode": "\\.github\\workflows\\image-build.yml",
+  "SelectedNode": "\\.github\\workflows\\laravel-deployment.yml",
   "PreviewInSolutionExplorer": false
 }
