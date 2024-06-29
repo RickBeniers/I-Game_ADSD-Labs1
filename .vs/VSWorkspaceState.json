@@ -6,6 +6,6 @@
     "\\public",
     "\\tests"
   ],
-  "SelectedNode": "\\.github\\workflows\\laravel-deployment.yml",
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }
