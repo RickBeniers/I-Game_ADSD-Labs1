@@ -1,8 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.github",
+    "\\.github\\workflows",
+    "\\app\\Http",
+    "\\app\\Http\\Controllers",
+    "\\app\\Models",
+    "\\app\\Providers",
     "\\public"
   ],
-  "SelectedNode": "\\public\\index.php",
+  "SelectedNode": "\\.github\\workflows\\image-build.yml",
   "PreviewInSolutionExplorer": false
 }

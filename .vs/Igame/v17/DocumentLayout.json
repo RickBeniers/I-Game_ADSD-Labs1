@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\public\\views\\home.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\views\\home.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\public\\views\\sim.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\views\\sim.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\public\\views\\rolselect.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\views\\rolselect.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\public\\views\\register.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\views\\register.blade.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -11,8 +27,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\public\\index.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\index.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\.github\\workflows\\image-build.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\image-build.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "index.php",
-              "DocumentMoniker": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\public\\index.php",
-              "RelativeDocumentMoniker": "public\\index.php",
-              "ToolTip": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\public\\index.php",
-              "RelativeToolTip": "public\\index.php",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2024-06-23T19:38:37.079Z",
+              "DocumentIndex": 6,
+              "Title": "image-build.yml",
+              "DocumentMoniker": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\.github\\workflows\\image-build.yml",
+              "RelativeDocumentMoniker": ".github\\workflows\\image-build.yml",
+              "ToolTip": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\.github\\workflows\\image-build.yml",
+              "RelativeToolTip": ".github\\workflows\\image-build.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-06-29T16:02:49.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\Dockerfile",
-              "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\Dockerfile",
-              "RelativeToolTip": "Dockerfile",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAGIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-23T19:10:24.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "compose.yaml",
               "DocumentMoniker": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\compose.yaml",
               "RelativeDocumentMoniker": "compose.yaml",
               "ToolTip": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\compose.yaml",
               "RelativeToolTip": "compose.yaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAALAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwDcAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-06-22T22:03:34.8Z",
+              "WhenOpened": "2024-06-29T15:33:11.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAFsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-29T15:32:06.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "register.blade.php",
+              "DocumentMoniker": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\public\\views\\register.blade.php",
+              "RelativeDocumentMoniker": "public\\views\\register.blade.php",
+              "ToolTip": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\public\\views\\register.blade.php",
+              "RelativeToolTip": "public\\views\\register.blade.php",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-06-28T13:47:49.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "rolselect.blade.php",
+              "DocumentMoniker": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\public\\views\\rolselect.blade.php",
+              "RelativeDocumentMoniker": "public\\views\\rolselect.blade.php",
+              "ToolTip": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\public\\views\\rolselect.blade.php",
+              "RelativeToolTip": "public\\views\\rolselect.blade.php",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-06-28T13:47:45.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sim.blade.php",
+              "DocumentMoniker": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\public\\views\\sim.blade.php",
+              "RelativeDocumentMoniker": "public\\views\\sim.blade.php",
+              "ToolTip": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\public\\views\\sim.blade.php",
+              "RelativeToolTip": "public\\views\\sim.blade.php",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-06-28T13:47:31.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "home.blade.php",
+              "DocumentMoniker": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\public\\views\\home.blade.php",
+              "RelativeDocumentMoniker": "public\\views\\home.blade.php",
+              "ToolTip": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\public\\views\\home.blade.php",
+              "RelativeToolTip": "public\\views\\home.blade.php",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2024-06-28T13:46:48.596Z",
               "EditorCaption": ""
             }
           ]
