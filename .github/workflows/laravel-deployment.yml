@@ -13,11 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Compile CSS and Javascript
-        run: |
-          npm install
-          npm run production
-
       - name: Configure php 8.0
         uses: shivammathur/setup-php@master
         with:
