@@ -14,7 +14,9 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Compile CSS and Javascript
-        run: npm install, npm run prod
+        run: |
+          npm install
+          npm run prod
 
       - name: Configure php 8.0
         uses: shivammathur/setup-php@master
