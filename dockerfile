@@ -91,7 +91,7 @@ RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 # COPY --from=deps app/vendor/ /var/www/html/vendor
 
 # Copy the app files from the app directory.
-COPY web-data /var/www/html
+COPY app /var/www/html
 
 # Run curl
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
