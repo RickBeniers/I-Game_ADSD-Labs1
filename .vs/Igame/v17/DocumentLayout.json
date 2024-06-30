@@ -30,7 +30,8 @@
               "RelativeToolTip": "compose.yaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-06-30T16:36:49.016Z"
+              "WhenOpened": "2024-06-30T16:36:49.016Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,7 +41,7 @@
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAHIAAAAAAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAF0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-06-30T16:21:20.131Z",
               "EditorCaption": ""
