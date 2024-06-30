@@ -103,7 +103,7 @@ RUN curl --silent --show-error https://getcomposer.org/installer | php -- --
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 COPY composer.json composer.json
 RUN composer -n validate --strict
-RUN composer -n install --no-scripts --ignore-platform-reqs --no-dev 
+RUN composer -n install --no-scripts --ignore-platform-reqs --no-dev --prefer-source
 
 # Switch to a non-privileged user (defined in the base image) that the app will run under.
 # See https://docs.docker.com/go/dockerfile-user-best-practices/
