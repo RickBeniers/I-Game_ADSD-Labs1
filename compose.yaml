@@ -17,7 +17,7 @@ services:
     env_file:
       - .env
     ports:
-      - 8000:80
+      - 8082:82
     volumes:
       - web-data:/var/www/html  
 

@@ -11,7 +11,13 @@
 # Create a stage for installing app dependencies defined in Composer.
 FROM composer:lts as deps
 
-WORKDIR ./app
+# Clear out the local repository.
+# Create directory named app within image.
+# Copy all the application files from your local machine to directory app.
+RUN apt-get clean
+RUN mkdir /app
+ADD . /app
+WORKDIR /app
 
 # If your composer.json file defines scripts that run during dependency installation and
 # reference your application source files, uncomment the line below to copy all the files
@@ -62,7 +68,7 @@ RUN apt-get update && apt-get install -y \
      && docker-php-ext-install -j$(nproc) gd
 
 # Clear cache
-RUN apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN rm -rf /var/lib/apt/lists/*
 
 # Enable Apache mod_rewrite for URL rewriting
 RUN a2enmod rewrite
@@ -91,8 +97,18 @@ COPY ./public /var/www/html
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 # Install project dependencies
-# RUN composer install
+# This step installs Composer in the image and copies it to the appropriate location.
+# And than run composer to install dependencies
+RUN curl --silent --show-error https://getcomposer.org/installer | php -- --
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+RUN composer install
 
 # Switch to a non-privileged user (defined in the base image) that the app will run under.
 # See https://docs.docker.com/go/dockerfile-user-best-practices/
 USER www-data
+
+# Start the application inside the container when container starts
+CMD php artisan serve --host=0.0.0.0 --port=8082
+# Expose the port that the app is running on so that
+# External acces to laravel app is created(should correspond to the port the server is listening on).
+EXPOSE 8082
