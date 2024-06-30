@@ -66,11 +66,11 @@ RUN apt-get update && apt-get install -y \
      libzip-dev \
      zlib1g-dev \
      unzip \
-     zip
+     zip \
  && rm -rf /var/lib/apt/lists/* \
      && docker-php-ext-configure gd --with-freetype --with-jpeg \
      && docker-php-ext-install -j$(nproc) gd
-     #RUN docker-php-ext-install zip
+#RUN docker-php-ext-install zip
 
 # Clear cache
 RUN rm -rf /var/lib/apt/lists/*
