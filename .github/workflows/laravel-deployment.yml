@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Configure php 8.0
+      - name: Configure php 8.2
         uses: shivammathur/setup-php@master
         with:
           php-version: 8.2
@@ -21,3 +21,6 @@ jobs:
       
       - name: Install Composer dependencies
         run: composer install --no-dev --no-interaction --prefer-dist
+
+      - name: create deployment artifact
+        run: tar -czf app.tar.gz --exclude=*.git --exclude=node_modules *

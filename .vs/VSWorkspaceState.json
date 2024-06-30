@@ -3,9 +3,9 @@
     "",
     "\\.github",
     "\\.github\\workflows",
+    "\\app",
     "\\public",
     "\\tests"
   ],
-  "SelectedNode": "\\composer.lock",
   "PreviewInSolutionExplorer": false
 }
