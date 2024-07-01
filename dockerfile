@@ -63,6 +63,8 @@ RUN apt-get update && apt-get install -y \
      libfreetype-dev \
      libjpeg62-turbo-dev \
      libpng-dev \
+# Add the 4 dependencies below because of problems with zip / unzip operations
+# while executing composer install errors due to missing zip & unzip commands.
      libzip-dev \
      zlib1g-dev \
      unzip \

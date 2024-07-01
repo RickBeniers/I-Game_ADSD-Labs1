@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:deployment.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "deployment.yml",
+              "DocumentMoniker": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\deployment.yml",
+              "RelativeDocumentMoniker": "deployment.yml",
+              "ToolTip": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\deployment.yml",
+              "RelativeToolTip": "deployment.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-06-30T19:06:04.239Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -30,17 +47,18 @@
               "RelativeToolTip": "compose.yaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-06-30T16:36:49.016Z"
+              "WhenOpened": "2024-06-30T16:36:49.016Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEgAAAAfAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAowHoAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-06-30T16:21:20.131Z",
               "EditorCaption": ""
