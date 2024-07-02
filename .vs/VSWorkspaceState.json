@@ -4,5 +4,6 @@
     "\\.github",
     "\\.github\\workflows"
   ],
+  "SelectedNode": "\\.github\\workflows\\image-build.yml",
   "PreviewInSolutionExplorer": false
 }
