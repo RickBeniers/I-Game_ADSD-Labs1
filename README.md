@@ -75,9 +75,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 3 - ![Execute php unit tests](https://github.com/RickBeniers/I-Game_ADSD-Labs1/actions/workflows/laravel-testing.yml/badge.svg)
 
 4 - ![Execute code analysis with codeclimate.com](https://github.com/RickBeniers/I-Game_ADSD-Labs1/actions/workflows/laravel-staticAnalysis.yml/badge.svg)
-
-    Extra 4A - [![Maintainability](https://api.codeclimate.com/v1/badges/b46eadcf72743ee3ca5b/maintainability)](https://codeclimate.com/github/RickBeniers/I-Game_ADSD-Labs1/maintainability)
-    Extra 4B - [![Test Coverage](https://api.codeclimate.com/v1/badges/b46eadcf72743ee3ca5b/test_coverage)](https://codeclimate.com/github/RickBeniers/I-Game_ADSD-Labs1/test_coverage)
+Extra 4A - [![Maintainability](https://api.codeclimate.com/v1/badges/b46eadcf72743ee3ca5b/maintainability)](https://codeclimate.com/github/RickBeniers/I-Game_ADSD-Labs1/maintainability)
+Extra 4B - [![Test Coverage](https://api.codeclimate.com/v1/badges/b46eadcf72743ee3ca5b/test_coverage)](https://codeclimate.com/github/RickBeniers/I-Game_ADSD-Labs1/test_coverage)
 
 ## I-Game_ADSD-Labs1
 This repository is the VCS for the ADSD Labs1 seminar at Windesheim Almere.
@@ -103,4 +102,3 @@ Voor oplevering van producten door de developers deponeert hij €5 in een gezam
 
 Hantekening ter bevestiging.
 Rick Beniers	  Rowin Van Gils	  Fouad Taissate	  Corné De Ruijt
-
