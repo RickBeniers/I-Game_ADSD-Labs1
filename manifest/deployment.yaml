@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: web-app-deployment
+  labels:
+    app: web-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: web-app
+  template:
+    metadata:
+      labels:
+        app: web-app
+    spec:
+      containers:
+      - name: web-app
+        image: rickbeniers/adsd-2024-igame:1.0
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80

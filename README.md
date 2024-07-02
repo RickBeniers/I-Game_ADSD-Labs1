@@ -65,6 +65,17 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+## Pipeline badges
+
+1 - ![Build a docker image and push to dockerhub](https://github.com/RickBeniers/I-Game_ADSD-Labs1/actions/workflows/image-build.yml/badge.svg)
+(Dockerhub: https://hub.docker.com/repository/docker/rickbeniers/adsd-2024-igame/general)
+
+2 - ![Deploy application and create a artifact build](https://github.com/RickBeniers/I-Game_ADSD-Labs1/actions/workflows/laravel-deployment.yml/badge.svg)
+
+3 - ![Execute php unit tests](https://github.com/RickBeniers/I-Game_ADSD-Labs1/actions/workflows/laravel-testing.yml/badge.svg)
+
+4 - ![Execute code analysis with codeclimate.com](https://github.com/RickBeniers/I-Game_ADSD-Labs1/actions/workflows/laravel-staticAnalysis.yml/badge.svg)
+
 ## I-Game_ADSD-Labs1
 This repository is the VCS for the ADSD Labs1 seminar at Windesheim Almere.
 
@@ -89,5 +100,3 @@ Voor oplevering van producten door de developers deponeert hij €5 in een gezam
 
 Hantekening ter bevestiging.
 Rick Beniers	  Rowin Van Gils	  Fouad Taissate	  Corné De Ruijt
-			
-

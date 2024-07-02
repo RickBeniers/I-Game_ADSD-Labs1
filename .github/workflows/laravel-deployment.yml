@@ -1,0 +1,35 @@
+name: deploy application and create build artifact
+
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  create-development-artifacts:
+    name: Create deployment artifacts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure php 8.2
+        uses: shivammathur/setup-php@master
+        with:
+          php-version: 8.2
+          extentions: mbstring, ctype, fileinfo, openssl, PDO, bcmath, Json, tokenizer, xml
+      
+      - name: Install Composer dependencies
+        run: composer install --no-dev --no-interaction --prefer-dist
+
+      - name: create deployment artifact
+        env:
+          GITHUB_SHA: ${{ github.sha }}
+
+        run: tar -czf "${GITHUB_SHA}".tar.gz --exclude=*.git --exclude=node_modules *
+
+      - name: Store artifact for distribution
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-build
+          path: ${{ github.sha }}.tar.gz

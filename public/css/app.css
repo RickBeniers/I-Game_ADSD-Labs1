@@ -1,0 +1,19 @@
+/*---- CSS for Header ---- */
+@charset "UTF-8";
+
+.grid-container {display: grid;}
+.grid-item1{grid-area: 1/2/1/2;} /*row, column, row, column*/
+.grid-item2{grid-area: 1/8/1/9;}
+.item{align-content:center;}
+
+.header{
+  width: 99%;
+  height: 100px;
+  border: solid 2px black;
+  display: grid;
+  border-radius: 10px;
+}
+.headerButton {
+  width: 50px;
+  height: 25px;
+}
