@@ -72,3 +72,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 2 - ![Deploy application and create a artifact build](https://github.com/RickBeniers/I-Game_ADSD-Labs1/actions/workflows/laravel-deployment.yml/badge.svg)
 
+3 - ![Execute php unit tests](https://github.com/RickBeniers/I-Game_ADSD-Labs1/actions/workflows/laravel-testing.yml/badge.svg)
