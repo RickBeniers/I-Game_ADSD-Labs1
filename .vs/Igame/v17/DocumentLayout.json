@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\.github\\workflows\\laravel-staticAnalysis.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\laravel-staticAnalysis.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\.github\\workflows\\laravel-testing.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 184,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -34,12 +34,11 @@
               "RelativeToolTip": ".github\\workflows\\laravel-testing.yml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-07-02T09:41:02.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T09:41:02.666Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "laravel-staticAnalysis.yml",
               "DocumentMoniker": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\.github\\workflows\\laravel-staticAnalysis.yml",
               "RelativeDocumentMoniker": ".github\\workflows\\laravel-staticAnalysis.yml",
@@ -52,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "README.md",
               "DocumentMoniker": "C:\\xampp2\\htdocs\\dashboard\\Projects\\Igame\\Igame\\README.md",
               "RelativeDocumentMoniker": "README.md",
