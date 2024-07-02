@@ -33,3 +33,9 @@ jobs:
         with:
           name: app-build
           path: ${{ github.sha }}.tar.gz
+
+      - name: Deploy dockerhub images to kubectl for kubernetes
+        run: kubectl apply -f manifest/deployment.yaml
+      - name: Deploy service
+        run: kubectl apply -f manifest/service.yaml
+        
