@@ -4,9 +4,10 @@
     "\\.github",
     "\\.github\\workflows",
     "\\app",
+    "\\manifest",
     "\\public",
     "\\tests"
   ],
-  "SelectedNode": "\\deployment.yml",
+  "SelectedNode": "\\manifest\\service.yaml",
   "PreviewInSolutionExplorer": false
 }
