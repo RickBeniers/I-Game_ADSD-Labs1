@@ -2,13 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\.github",
-    "\\.github\\workflows",
-    "\\app",
-    "\\manifest",
-    "\\public",
-    "\\tests",
-    "\\tests\\Feature",
-    "\\tests\\Unit"
+    "\\.github\\workflows"
   ],
+  "SelectedNode": "\\.github\\workflows\\laravel-testing.yml",
   "PreviewInSolutionExplorer": false
 }
