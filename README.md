@@ -64,3 +64,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Pipeline badges
+
+1 - ![Build a docker image and push to dockerhub](https://github.com/RickBeniers/I-Game_ADSD-Labs1/actions/workflows/image-build.yml/badge.svg)
+(Dockerhub: https://hub.docker.com/repository/docker/rickbeniers/adsd-2024-igame/general)
+
+2 - ![Deploy application and create a artifact build](https://github.com/RickBeniers/I-Game_ADSD-Labs1/actions/workflows/laravel-deployment.yml/badge.svg)
+

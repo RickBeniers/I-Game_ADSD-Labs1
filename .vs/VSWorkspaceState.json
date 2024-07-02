@@ -8,6 +8,6 @@
     "\\public",
     "\\tests"
   ],
-  "SelectedNode": "\\manifest\\service.yaml",
+  "SelectedNode": "\\.github\\workflows\\laravel-deployment.yml",
   "PreviewInSolutionExplorer": false
 }
