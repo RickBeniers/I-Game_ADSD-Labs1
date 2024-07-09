@@ -1,5 +1,5 @@
 <?php include"home.blade.php"; ?>
-<link rel=stylesheet type=text/css href=/dashboard/projects/Igame/Igame/resources/css/register.css?v=7>
+<link rel=stylesheet type=text/css href=/dashboard/projects/Igame/Igame/public/css/register.css?v=8>
        <main>
        <div class=outerDiv>
           <div class=innerDiv>

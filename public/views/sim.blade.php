@@ -1,7 +1,7 @@
 <?php include"home.blade.php"; 
 /* link href tag may be incorrect, change href path to reflect local path.*/
 ?>
-<link rel=stylesheet type=text/css href=/dashboard/projects/Igame/Igame/resources/css/sim.css?v=4>
+<link rel=stylesheet type=text/css href=/dashboard/projects/Igame/Igame/public/css/sim.css?v=5>
 <script>
     
 </script>

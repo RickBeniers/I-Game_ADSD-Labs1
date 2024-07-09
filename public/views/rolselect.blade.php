@@ -1,5 +1,5 @@
 <?php include"home.blade.php"; ?>
-<link rel=stylesheet type=text/css href=/dashboard/projects/Igame/Igame/resources/css/rolselect.css?v=1>
+<link rel=stylesheet type=text/css href=/dashboard/projects/Igame/Igame/public/css/rolselect.css?v=2>
         <main>
             <div class=outerDiv>
                 <form method=post action="">
