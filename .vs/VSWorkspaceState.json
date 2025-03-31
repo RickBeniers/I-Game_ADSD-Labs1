@@ -3,7 +3,13 @@
     "",
     "\\.github",
     "\\.github\\workflows",
-    "\\manifest"
+    "\\manifest",
+    "\\public",
+    "\\public\\views",
+    "\\tests",
+    "\\tests\\Feature",
+    "\\tests\\Unit"
   ],
+  "SelectedNode": "\\tests\\Feature\\ExampleTest.php",
   "PreviewInSolutionExplorer": false
 }
